@@ -18,7 +18,8 @@
           "NETCore.MailKit": "2.1.0",
           "Newtonsoft.Json": "13.0.2",
           "Serilog.Extensions.Logging": "3.1.0",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.3",
+          "System.Linq.Dynamic.Core": "1.6.6"
         },
         "runtime": {
           "API.dll": {}
@@ -957,6 +958,14 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Dynamic.Core/1.6.6": {
+        "runtime": {
+          "lib/net6.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.6.6.0",
+            "fileVersion": "1.6.6.0"
+          }
         }
       },
       "System.Linq.Expressions/4.3.0": {
@@ -2068,6 +2077,13 @@
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DalpBR6IiZsT61Z9h3ujGxhOALmJUE6hrbeWjRUL24AxDIvhxzhxftSrRrF1G8vNggpadDfRiej6ImrpYS8sJA==",
+      "path": "system.linq.dynamic.core/1.6.6",
+      "hashPath": "system.linq.dynamic.core.1.6.6.nupkg.sha512"
     },
     "System.Linq.Expressions/4.3.0": {
       "type": "package",
